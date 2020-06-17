@@ -1,0 +1,14 @@
+#for 循环
+Sum=0
+Number=0
+for Number in range(2,101,2):
+      Sum=Sum+Number
+print(Sum)
+
+#While循环
+Sum=0
+Number=2
+while Number <101:
+    Sum+=Number
+    Number+=2
+print(Sum)
